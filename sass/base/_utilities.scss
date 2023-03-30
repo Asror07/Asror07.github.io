@@ -1,0 +1,34 @@
+.u-center-text {
+  text-align: center !important;
+}
+
+.u-margin-botton-big {
+  margin-bottom: 8rem !important;
+}
+
+.u-margin-botton-middle {
+  margin-bottom: 1.5rem !important;
+}
+
+.u-margin-botton-medium {
+  margin-bottom: 4rem !important;
+
+  @include properties(tab-port) {
+    margin-bottom: 3rem !important;
+  }
+}
+.u-margin-botton-small {
+  margin-bottom: 1.5rem !important;
+}
+
+.u-margin-top-big {
+  margin-bottom: 8rem !important;
+
+  @include properties(tab-port) {
+    margin-bottom: 5rem !important;
+  }
+}
+
+.u-margin-top-big-2 {
+  margin-bottom: 10rem !important;
+}
